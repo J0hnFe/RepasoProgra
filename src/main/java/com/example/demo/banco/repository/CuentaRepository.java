@@ -6,6 +6,6 @@ public interface CuentaRepository {
 
 	public void insertar(Cuenta c);
 	public void actualizar(Cuenta c);
-	public void eliminar(Cuenta c);
+	public void eliminar(String n);
 	public Cuenta seleccionarNum(String n); //Selecciona cta por num. 
 }
