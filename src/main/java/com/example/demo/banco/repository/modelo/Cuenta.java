@@ -7,6 +7,9 @@ public class Cuenta {
 	private String num;
 	private String tipo;
 	private BigDecimal saldo; // Siempre BigDecimal para monetarios
+	private String cedula;
+
+
 	private LocalDate fechaApertura;
 
 	// Metodo toString
@@ -47,6 +50,14 @@ public class Cuenta {
 
 	public void setFechaApertura(LocalDate fechaApertura) {
 		this.fechaApertura = fechaApertura;
+	}
+	
+	public String getCedula() {
+		return cedula;
+	}
+
+	public void setCedula(String cedula) {
+		this.cedula = cedula;
 	}
 
 }

@@ -1,5 +1,8 @@
 package com.example.demo.banco.service;
 
-public interface MontoDebitarService {
+import java.math.BigDecimal;
 
+
+public interface MontoDebitarService {
+	public BigDecimal calcular (BigDecimal monto);
 }

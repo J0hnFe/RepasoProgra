@@ -44,4 +44,9 @@ public class TransferenciaRepositoryImpl implements TransferenciaRepository {
 		}
 		return t;
 	}
+
+	@Override
+	public List<Transferencia> buscarTodos() {
+		return baseDatos;
+	}
 }

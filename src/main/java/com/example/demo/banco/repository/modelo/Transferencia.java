@@ -14,7 +14,7 @@ public class Transferencia {
 	@Override
 	public String toString() {
 		return "\nTransferencia [num = " + num + ", monto = " + monto + ", fecha = " 
-				+ fecha + ", ctaOrigen = " + ctaOrigen + ", ctaDestino = " + ctaDestino + "]";
+				+ fecha + ", \nctaOrigen = " + ctaOrigen + ", \nctaDestino = " + ctaDestino + "]";
 	}
 
 	// Getters y Setters
